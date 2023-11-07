@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+<style>
+
+.flex-conteiner{
+
+    display:flex;
+    /*flex-direction:row;*/    /*(padrão): esquerda para a direita em ltr (left to right), direita para a esquerda em rtl (right to left)*/
+    /*flex-direction:row-reverse;*/  /*  direita para a esquerda em ltr, esquerda para a direita em rtl */
+    /*flex-direction:column;*/  /* mesmo que row, mas de cima para baixo */
+    /*flex-direction:column-reverse;*/   /*  mesmo que row-reverse mas de baixo para cima
+ */
+
+    /*flex-wrap: nowrap;*/   /* (padrão): todos os flex items ficarão em uma só linha */
+    /*flex-wrap:wrap;*/   /* os flex items vão quebrar em múltiplas linhas, de cima para baixo */
+    /*flex-wrap:wrap-reverse;*/   /* os flex items vão quebrar em múltiplas linhas de baixo para cima */
+
+ 
+    /* flex-flow: row;*/
+    /*flex-flow: row nowrap;*/
+    /*flex-flow: row wrap;*/
+    /*flex-flow: column nowrap;*/  
+    /*flex-flow: column wrap;*/
+    
+
+    /*justify-content: flex-start;
+    justify-content: flex-end;*/
+    justify-content:space-around;
+
+
+
+}
+.n1{
+    border: 2px solid blue;
+    width:25px;
+}
+.n2{
+    border: 2px solid chartreuse;
+    width:25px;
+}
+.n3{
+    border: 2px solid brown;
+    width:25px;
+}
+.n4{
+    border: 2px solid orange;
+    width:25px;
+}
+.n5{
+    border: 2px solid red;
+    width:25px;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="flex-conteiner"> 
+
+<div class="n1"> 1 </div><br>
+<div class="n2"> 2 </div><br>
+<div class="n3"> 3 </div><br>    
+<div class="n4"> 4 </div><br>  
+<div class="n5"> 5 </div><br>  
+
+
+</div>
+</body>
+</html>
